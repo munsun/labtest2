@@ -1,0 +1,341 @@
+article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, header, li, nav, ol, p, section, table, th, td, ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+aside, figure, header, footer, nav
+{
+	display: block;
+}
+
+article
+{
+	padding: 10px;
+}
+
+	article p
+	{
+		font-size: 1.25em;
+		text-align: center;
+		padding-bottom: 15px;
+	}
+
+aside
+{
+	float: right;
+	padding: 8px;
+	border-left: 5px solid black;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	background: #8CC63F;
+	margin-left: 10px;
+}
+
+body
+{
+	font-family: tahoma, arial, helvetica, sans-serif;
+	background: grey;
+}
+
+dd
+{
+	padding-left: 1.5em;
+}
+
+dt
+{
+	font-weight: bold;
+}
+
+figure
+{
+	float: right;
+	padding: 1em 0 0.25em 0.5em;
+	margin: 0;
+}
+
+footer
+{
+	border-top: 5px solid black;
+	clear: both;
+}
+
+h1
+{
+	font-size: 50px;
+	text-align: center;
+	color: blue;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+nav
+{
+	font-size: 1.25em;
+}
+
+	nav ul
+	{
+		margin-left: 0;
+	}
+
+	nav p
+	{
+		text-align: center;
+	}
+
+ol, ul
+{
+	margin-left: 2em;
+}
+
+table
+{
+	margin: 1em 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+td
+{
+	border: 1px solid black;
+	padding: 0.25em;
+}
+
+th
+{
+	border: 1px solid black;
+	padding: 0.25em;
+	background: #e0e0e0;
+}
+
+ul
+{
+	list-style-image: url("images/browntri.gif");
+}
+
+#box
+{
+	width: 960px;
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	border: 0.35em solid black;
+	position: relative;
+	text-align: center;
+}
+
+#contact
+{
+	text-align: right;
+	padding: 0.5em;
+	color: white;
+	background: black;
+	margin: 0;
+}
+
+#logo1
+{
+	position: absolute;
+	left: 0em;
+}
+
+#logo2
+{
+	position: absolute;
+	right: 0em;
+}
+
+#logo img
+{
+	display: block;
+}
+
+#mainnav
+{
+	text-align: left;
+	width: 175px;
+	float: left;
+	background: #8CC63F;
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	margin-right: 10px;
+	position: absolute;
+	left: 0em;
+	top: 7.5em;
+}
+
+	#mainnav a
+	{
+		text-decoration: none;
+	}
+
+	#mainnav li
+	{
+		list-style-type: none;
+		padding: 0.25em 0;
+		margin-top: 0.25em;
+		background: black;
+	}
+
+#maintext
+{
+	padding: 0 0.5em;
+}
+
+#skipnav
+{
+	width: 960px;
+	text-align: right;
+	margin: 0 auto;
+	background: #663300;
+}
+
+#skiplink
+{
+	padding: 0.25em;
+	background: black;
+}
+
+#word1, #word2, #word3, #word4
+{
+	position: relative;
+}
+
+#word1
+{
+	left: 330px;
+}
+
+#word2
+{
+	left: 370px;
+}
+
+#word3
+{
+	left: 410px;
+}
+
+#word4
+{
+	left: 450px;
+}
+
+.callout
+{
+	font-weight: bold;
+}
+
+.toplink
+{
+	text-align: left;
+	padding-right: 1em;
+}
+
+a:link
+{
+	color: #663300;
+}
+
+a:visited
+{
+	color: #663300;
+}
+
+a:hover
+{
+	color: black;
+}
+
+a:active
+{
+	color: #663300;
+}
+
+#pagenav a:link
+{
+	color: black;
+}
+
+#pagenav a:visited
+{
+	color: #754719;
+}
+
+#pagenav a:hover
+{
+	color: red;
+}
+
+#pagenav a:active
+{
+	color: #754719;
+}
+
+#mainnav a:link
+{
+	color: white;
+}
+
+#mainnav a:visited
+{
+	color: #8CC63F;
+}
+
+#mainnav a:hover
+{
+	color: red;
+}
+
+#mainnav a:active
+{
+	color: #8CC63F;
+}
+
+#skipnav a:link
+{
+	color: white;
+}
+
+#skipnav a:visited
+{
+	color: white;
+}
+
+#skipnav a:hover
+{
+	color: white;
+}
+
+#skipnav a:active
+{
+	color: white;
+}
+
+#upcom
+{
+	border: 2px solid black;
+	padding: 0.25em;
+	position: absolute;
+	right: 0em;
+	top: 9em;
+	background: #8CC63F;
+}
+
+#main-content
+{
+	display:inline-block;
+	padding: 20px;
+	margin: 20px;
+	box-sizing:border-box;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
